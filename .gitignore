@@ -1,0 +1,30 @@
+# Node Dependencies (Root & Subfolders)
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Build Outputs
+dist/
+**/dist/
+dist-ssr/
+*.local
+
+# Environment & Secret Files (CRITICAL for Backend)
+.env
+.env.*
+!.env.example
+
+# Python / Backend (Prepping for future backend additions)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Editor & System Files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
+*.sln
